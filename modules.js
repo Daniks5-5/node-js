@@ -1,3 +1,2 @@
-const user = require('./test');
-
-console.log(user);
+const name = require('./test');
+console.log(name);

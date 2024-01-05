@@ -6,10 +6,9 @@ const userFamily = "Sidorov";
 
 const sayFam = (userFamily) => `My lastname is ${userFamily}`;
 
-module.exports = {
+module.exports  = userName;
+
+module. exports = {
     userName,
     sayHi,
-    userFamily,
-    sayFam,
-
 }
