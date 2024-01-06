@@ -3,18 +3,13 @@ console.log(number(1,20));
 
 const fs = require('fs');
 
-fs.readFile('./estima1.txt', 'utf8',(error,data) =>{
+fs.readFile('./estima2.txt', 'utf8', (error,data) =>{
 
-    console.log(data);
-    fs.writeFile('./estima2.txt', data, () => {
-
-    } );
-
-});
-
-
-fs.readFile('./main.js',(error,data) =>{
-fs.writeFile('./main2.js', data, () =>{
+fs.mkdir('./car/estima3.txt', () =>{
+fs.writeFile('./estima3.txt', `${data} New information about this car`, (error) =>{
+    error ? console.log (error) : null;
 
 });
+});
+
 });
