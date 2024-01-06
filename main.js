@@ -11,3 +11,10 @@ fs.readFile('./estima1.txt', 'utf8',(error,data) =>{
     } );
 
 });
+
+
+fs.readFile('./main.js',(error,data) =>{
+fs.writeFile('./main2.js', data, () =>{
+
+});
+});
